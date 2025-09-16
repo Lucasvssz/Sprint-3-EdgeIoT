@@ -23,9 +23,9 @@
 
 - 🔧 Utilizamos um sensor de força para monitorar e registrar a intensidade de um impacto, como um chute ou toque na bola.
 
-O sensor é conectado ao Arduino, que, por sua vez, processa as informações e as transforma em um valor de força. Um LED pode ser acionado para indicar que uma força mínima pré-determinada foi alcançada, fornecendo um feedback visual imediato.
+- O sensor é conectado ao Arduino, que, por sua vez, processa as informações e as transforma em um valor de força. Um LED pode ser acionado para indicar que uma força mínima pré-determinada foi alcançada, fornecendo um feedback visual imediato.
 
-Todos os componentes são interligados de forma segura e organizada em uma protoboard, utilizando cabos jumpers para facilitar a montagem e os testes do projeto.
+- Todos os componentes são interligados de forma segura e organizada em uma protoboard, utilizando cabos jumpers para facilitar a montagem e os testes do projeto.
 
 >> Visão Geral da Arquitetura
 
