@@ -7,7 +7,7 @@
 
 
 # 
- # NOur Project🗂️
+ # In Our Project🗂️
 <strong>Our system focuses on identifying areas for improvement and encouraging<br />sports practice in a more technical and scientific way</strong>
 
 >> Learn more about our project:
