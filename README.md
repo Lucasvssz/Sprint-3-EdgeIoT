@@ -32,7 +32,7 @@
 <h3>O sistema possui uma arquitetura simples e funcional</h3>
 <p></p>
 
-<h2>Entrada (Input)</h2>
+<h2>Entrada (Input)⬅️</h2>
 
 - A força aplicada na bola é capturada pelo sensor FSR.
 
@@ -44,11 +44,11 @@
 
 - O microcontrolador processa os dados para calcular a intensidade do chute ou toque.
 
-<h2>Saída (Output)</h2>
+<h2>Saída (Output)➡️</h2>
 
-Os resultados podem ser visualizados em um LED (indicação visual de força) ou enviados para um monitor serial no computador para registro e análise.
+- Os resultados podem ser visualizados em um LED (indicação visual de força) ou enviados para um monitor serial no computador para registro e análise.
 
-O sistema possibilita medir a evolução das jogadoras ao longo do tempo.
+- O sistema possibilita medir a evolução das jogadoras ao longo do tempo.
 #
 
 <h3> ⚙️Componentes Utilizados⚙️ </h3>
@@ -62,7 +62,16 @@ O sistema possibilita medir a evolução das jogadoras ao longo do tempo.
 - Resistors(2x 220Ω)
 
 - Protoboard(1x)
+#
 
+<h2>Sistema do Recebimento de informações</h2>
+<p>Utilimzamos o NodeRed para fazer a coleta dos dados</p>
+
+<h3> ⚙️Metodo de Coleta⚙️ </h3>
+
+- Inject code: {"application":"sensor-forca","value":200,"timestamp":1699988999}{"application":"sensor-forca","value":200,"timestamp":1699988999}
+
+![Recrie!](./images/Captura%20de%20tela%202025-09-15%20223741.png)
 #
 
 # Monte você também!
@@ -72,7 +81,7 @@ O sistema possibilita medir a evolução das jogadoras ao longo do tempo.
 
 ![Recrie!](./images/Captura%20de%20tela%202025-09-15%20212126.png) 
 
->> <h3>Depois que montar basta implementar o arquivo .txt que deixaremos disponivel, e tudo pronto!!</h3>
+>> <h3>Depois que montar basta implementar o arquivo code.txt que deixaremos disponivel, e tudo pronto!!</h3>
 
 #
 
