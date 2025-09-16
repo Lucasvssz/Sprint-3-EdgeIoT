@@ -1,57 +1,57 @@
-# Oferecemos o Suporte e Apoio que Nossas<br />Meninas Merecem
-<strong><p>Neste projeto, desenvolvemos um sistema baseado em Arduino que pode ser versionado ao ESP32 capaz de medir a força dos chutes e toques realizados pelas jogadoras em uma bola de futebol. A ideia principal é proporcionar dados precisos sobre a intensidade e a técnica aplicada em cada ação.</p></strong>
+# We Offer the Support and Care Our<br />Girls Deserve
+<strong><p>In this project, we developed a system based on Arduino, which can also be adapted to the ESP32, capable of measuring the force of kicks and touches made by players on a soccer ball. The main idea is to provide accurate data on the intensity and technique applied in each action.</p></strong>
 
 
->> Onde focamos:
-<p>Buscamos oferecer uma ferramenta prática tanto para treinamentos quanto para análise de desempenho, permitindo acompanhar a evolução das jogadoras, identificar pontos de melhoria e incentivar a prática esportiva de forma mais técnica e científica.</p>
+>> Where We Focus::
+<p>We aim to offer a practical tool both for training and performance analysis, enabling players to track their progress, identify areas for improvement, and encourage sports practice in a more technical and scientific way.</p>
 
 
 # 
- # Nosso Projeto🗂️
-<strong>Nosso sistema tem foco em identificar pontos de melhoria e incentivar a<br />prática esportiva de forma mais técnica e científica</strong>
+ # NOur Project🗂️
+<strong>Our system focuses on identifying areas for improvement and encouraging<br />sports practice in a more technical and scientific way</strong>
 
->> Saiba mais sobre nosso projeto:
+>> Learn more about our project:
 
 ![YouTube](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_(2017).svg/64px-YouTube_full-color_icon_(2017).svg.png)
-<a href="https://youtu.be/mpvPlb8FJKs"> Vídeo explicativo
+<a href="https://youtu.be/mpvPlb8FJKs"> Explanatory Video
  
 ![Tinkercad](./images/Imagem%20do%20WhatsApp%20de%202025-05-31%20à(s)%2019.11.13_d333cb35.jpg)
-<a href="https://www.tinkercad.com/things/cwMRDdtIUm3-circuito-de-forca-?sharecode=9yPXvnIw1y9zixqjGD34_Y87SNiKPYB1XcAP7_vBDYc"> Tinkercad do projeto
+<a href="https://www.tinkercad.com/things/cwMRDdtIUm3-circuito-de-forca-?sharecode=9yPXvnIw1y9zixqjGD34_Y87SNiKPYB1XcAP7_vBDYc"> Project on Tinkercad
 
 
-<h2> Como funciona🤷‍♂️ </h2>
+<h2> How It Works🤷‍♂️ </h2>
 
-- 🔧 Utilizamos um sensor de força para monitorar e registrar a intensidade de um impacto, como um chute ou toque na bola.
+- 🔧We use a force sensor to monitor and record the intensity of an impact, such as a kick or touch on the ball.
 
-- O sensor é conectado ao Arduino, que, por sua vez, processa as informações e as transforma em um valor de força. Um LED pode ser acionado para indicar que uma força mínima pré-determinada foi alcançada, fornecendo um feedback visual imediato.
+- The sensor is connected to the Arduino, which processes the information and converts it into a force value. A LED can be triggered to indicate that a pre-set minimum force has been reached, providing immediate visual feedback.
 
-- Todos os componentes são interligados de forma segura e organizada em uma protoboard, utilizando cabos jumpers para facilitar a montagem e os testes do projeto.
+- All components are safely and neatly connected on a breadboard, using jumper wires to simplify assembly and testing of the project.
 
->> Visão Geral da Arquitetura
+>> System Architecture Overview
 
-<h3>O sistema possui uma arquitetura simples e funcional</h3>
+<h3>The system has a simple and functional architecture</h3>
 <p></p>
 
-<h2>Entrada (Input)⬅️</h2>
+<h2>(Input)⬅️</h2>
 
-- A força aplicada na bola é capturada pelo sensor FSR.
+- The force applied to the ball is captured by the FSR sensor.
 
-- O sensor converte a pressão mecânica em variação de resistência elétrica.
+- The sensor converts mechanical pressure into electrical resistance variation.
 
-<h2>Processamento</h2>
+<h2>Processing</h2>
 
-- O Arduino lê os valores analógicos do sensor FSR.
+- The Arduino reads the analog values from the FSR sensor.
 
-- O microcontrolador processa os dados para calcular a intensidade do chute ou toque.
+- The microcontroller processes the data to calculate the intensity of the kick or touch.
 
-<h2>Saída (Output)➡️</h2>
+<h2>(Output)➡️</h2>
 
-- Os resultados podem ser visualizados em um LED (indicação visual de força) ou enviados para um monitor serial no computador para registro e análise.
+- Results can be visualized on a LED (visual force indication) or sent to the serial monitor on a computer for logging and analysis.
 
-- O sistema possibilita medir a evolução das jogadoras ao longo do tempo.
+- The system allows tracking the players’ progress over time.
 #
 
-<h3> ⚙️Componentes Utilizados⚙️ </h3>
+<h3> ⚙️Components Used⚙️ </h3>
 
 - Arduino UNO (1x)
 
@@ -64,27 +64,34 @@
 - Protoboard(1x)
 #
 
-<h2>Sistema do Recebimento de informações</h2>
-<p>Utilimzamos o NodeRed para fazer a coleta dos dados</p>
+<h2>Information Collection System</h2>
+<p>We used Node-RED to collect the data</p>
 
-<h3> ⚙️Metodo de Coleta⚙️ </h3>
+<h3> ⚙️Collection Method ⚙️ </h3>
 
 - Inject code: {"application":"sensor-forca","value":200,"timestamp":1699988999}{"application":"sensor-forca","value":200,"timestamp":1699988999}
 
+<p>Input</p>
+
 ![Recrie!](./images/Captura%20de%20tela%202025-09-15%20223741.png)
+
+<p>Output</p>
+
+![Recrie!](./images/Captura%20de%20tela%202025-09-15%20231048.png)
+
 #
 
-# Monte você também!
-<p>Siga os passos abaixo</p>
+# Build It Yourself!
+<p>Follow the steps below</p>
 
-> <h3>Siga este padrão de montagem:</h3>
+> <h3>Follow this assembly pattern:</h3>
 
 ![Recrie!](./images/Captura%20de%20tela%202025-09-15%20212126.png) 
 
->> <h3>Depois que montar basta implementar o arquivo code.txt que deixaremos disponivel, e tudo pronto!!</h3>
+>> <h3>After assembling, simply implement the code.txt file we provide, and everything is ready!!</h3>
 
 #
 
-<h2>Nós da ©Company 404 agradecemos sua atenção!👋</h2>
+<h2>We at ©Company 404 thank you for your attention! 👋</h2>
 
 ![Company 404](./images/error_64x64.png)
